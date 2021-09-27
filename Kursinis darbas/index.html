@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Kursinis darbas</title>
+        <!-- Bootstrap CSS file -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Langar&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Langar&family=Open+Sans&display=swap" rel="stylesheet">
+        <!-- Main css file -->
+        <link rel="stylesheet" href="stilius.css">
+         <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Main jQuery file -->
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <!-- Navigation bar'as -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3 fixed-top">
+            <!-- Logotipas -->
+            <a class="navbar-brand" href="#">Mano<b>Portfolio</b></a>     
+            <!-- Navigation Bar Mygtukas -->  
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+            <!-- Navigation Bar turinys -->
+            <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link"><i class="fa fa-home"></i> Pradžia</a>
+                    <a href="about.html" class="nav-item nav-link"><i class="fa fa-user"></i> Apie mane</a>         
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-book"></i> Projektai</a>
+                        <div class="dropdown-menu">                 
+                            <a href="project.html" class="dropdown-item">Prisitaikantis dizainas</a>
+                        </div>
+                    </div>
+                    <a href="resume.html" class="nav-item nav-link"><i class="fa fa-file"></i> Mano CV</a>
+                    <a href="contact.html" class="nav-item nav-link active"><i class="fa fa-envelope"></i> Susisiekime</a>
+                </div>
+                <!-- Socialinių tinklų ikonos -->
+                <div class="navbar-nav ml-auto">
+                    <a href="#" target="_blank" class="nav-item nav-link"><i class="fa fa-facebook"></i></a>
+                    <a href="#" target="_blank" class="nav-item nav-link"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" target="_blank" class="nav-item nav-link"><i class="fa fa-instagram"></i></a>
+                    <a href="#" target="_blank" class="nav-item nav-link"><i class="fa fa-github"></i></a>
+                </div>      
+            </div>
+        </nav>
+        <!-- End navigation bar -->
+        <!-- Carousel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Karuselės indikatoriai -->
+            <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ul>
+            <!-- Karuselės paveikslėliai ir tekstas -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img\9.jpg" alt="img1" width="1100" height="500">
+                    <div class="carousel-caption">
+                    <h1>Sveiki!</h1>
+                    </div>   
+                </div>
+                <div class="carousel-item">
+                    <img src="img\1.jpg" alt="img2" width="1100" height="500">
+                    <div class="carousel-caption">
+                    <h1>Esu Eglė.</h1>
+                    </div>   
+                </div>
+                <div class="carousel-item">
+                    <img src="img\3.jpg" alt="img3" width="1100" height="500">
+                    <div class="carousel-caption">
+                    <h1>Programų sistemų 1 - ojo kurso studentė.</h1>
+                    </div>   
+                </div>
+                <div class="carousel-item">
+                    <img src="img\8.jpg" alt="img4" width="1100" height="500">
+                    <div class="carousel-caption">
+                    <h1>Susipažinkime!</h1>
+                    </div>   
+                </div>
+            </div>
+            <!-- Karuselės peržiūros ikonos -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <!-- End Carousel -->
+        <hr>
+        <!-- Footer -->
+        <footer id="footer">
+            <!-- Vardas Pavardė -->
+            <div class="container">
+                <h3>Eglė Eglavičiūtė</h3>
+            <!-- Socialiniai tinklai -->
+            <div class="social-links">
+                <a href="#" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="#" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" target="_blank" class="github"><i class="fa fa-github"></i></a>
+            </div>
+            <!-- Copyright'as -->
+            <div class="copyright">
+                &copy; Copyright <strong><span>Mano <b>Portfolio</b></span></strong> 2021. Visos teisės saugomos.
+            </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        <!-- Back to top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        <!-- End back to top -->
+    </body>
+</html>

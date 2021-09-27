@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Kursinis darbas</title>
+        <!-- Bootstrap CSS file -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Langar&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Langar&family=Open+Sans&display=swap" rel="stylesheet">
+        <!-- Main css file -->
+        <link rel="stylesheet" href="stilius.css">
+         <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Main jQuery file -->
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <!-- Navigation bar'as -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+            <!-- Logotipas -->
+            <a class="navbar-brand" href="#">Mano<b>Portfolio</b></a>     
+            <!-- Navigation Bar Mygtukas -->  
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+            <!-- Navigation Bar turinys -->
+            <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link"><i class="fa fa-home"></i> Pradžia</a>
+                    <a href="about.html" class="nav-item nav-link"><i class="fa fa-user"></i> Apie mane</a>         
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-book"></i> Projektai</a>
+                        <div class="dropdown-menu">                 
+                            <a href="project.html" class="dropdown-item">Prisitaikantis dizainas</a>
+                        </div>
+                    </div>
+                    <a href="resume.html" class="nav-item nav-link"><i class="fa fa-file"></i> Mano CV</a>
+                    <a href="contact.html" class="nav-item nav-link active"><i class="fa fa-envelope"></i> Susisiekime</a>
+                </div>
+                <!-- Socialinių tinklų ikonos -->
+                <div class="navbar-nav ml-auto">
+                    <a href="#"  target="_blank" class="nav-item nav-link"><i class="fa fa-facebook"></i></a>
+                    <a href="#" target="_blank" class="nav-item nav-link"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" target="_blank" class="nav-item nav-link"><i class="fa fa-instagram"></i></a>
+                    <a href="#" target="_blank" class="nav-item nav-link"><i class="fa fa-github"></i></a>
+                </div>      
+            </div>
+        </nav>
+        <!-- End navigation bar -->
+    <body data-spy="scroll" data-offset="15" data-target="#myScrollspy">
+        <!-- Main container with scroll spy -->
+        <div class="container">
+            <h1>Mano CV</h1>
+
+            <div class="row">
+                <!-- Pagrindinis myscrollspy stulpelis su antraščių pavadinimais -->
+                <div class="col-sm-3" id="myScrollspy">
+                    <!-- Antraščių pavadinimų sąrašas -->
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action active" href="#section1">Išsilavinimas</a>
+                        <a class="list-group-item list-group-item-action" href="#section2">"Data science"</a>
+                        <a class="list-group-item list-group-item-action" href="#section3">"Data Lietuva"</a>
+                        <a class="list-group-item list-group-item-action" href="#section4">"Sveika gyvensena"</a>
+                        <a class="list-group-item list-group-item-action" href="#section5">"Miesto žinios"</a>
+                    </div>
+                </div>
+                <!-- Pagrindinis myscrollspy stulpelis su timeline ir darbo bei išsilavinimo informacija -->
+                <div class="col-sm-9">
+                    <!-- Išsilavinimo sekcija-->
+                    <div id="section1">
+                        <h3>Išsilavinimas</h3>
+                        <ul class="timeline">
+                        <li>
+                            <b>Programų sistemos</b>                     
+                            <b class="float-right">2015 - 2019</b>
+                            <p class="lead"><i>Kauno kolegija</i></p>
+                            
+                        </li>
+                        <li>
+                            <b>Visuomenės sveikata</b>
+                            <b class="float-right">2011 - 2015</b>
+                            <p class="lead"><i>Lietuvos sveikatos mokslų universitetas</i></p>
+                        </li>
+                        <li>
+                            <b>Vidurinis išsilavinimas</b>
+                            <b class="float-right">2000 - 2011</b>
+                            <p class="lead"><i>Kelmės J. Graičiūno gimnazija</i></p>
+                        </li>
+                    </ul>
+                    </div>
+                    <hr>
+                    <!-- Darbo patirtis 1-->
+                    <div id="section2">
+                        <h3>UAB "Data science", Kaunas</h3>
+                        <ul class="timeline">
+                        <li>
+                            <b>Duomenų mokslininkė</b>
+                            <b class="float-right">2016 - 2020</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                        </li>
+                    </ul>
+                    </div>
+                    <hr>
+                    <!-- Darbo patirtis 2-->
+                    <div id="section3">
+                        <h3>UAB "Data Lietuva", Kaunas</h3>
+                        <ul class="timeline">
+                        <li>
+                            <b>Duomenų analitikė</b>
+                            <b class="float-right">2015 - 2016</b>
+                            <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                        </li>
+                        <li>
+                            <b>Duomenų specialistė</b>
+                            <b class="float-right">2014 - 2015</b>
+                            <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                        </li>
+                    </ul>
+                    </div>
+                    <hr>
+                    <!-- Darbo patirtis 3-->
+                    <div id="section4">
+                        <h3>UAB "Sveika gyvensena", Kaunas</h3>
+                        <ul class="timeline">
+                        <li>
+                            <b>Vyr. vadybininkė</b>
+                            <b class="float-right">2013 - 2014</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                        </li>
+                        <li>
+                            <b>Vadybininkė</b>
+                            <b class="float-right">2012 - 2013</b>
+                            <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                        </li>
+                        <li>
+                            <b>Konsultantė</b>
+                            <b class="float-right">2011 - 2012</b>
+                            <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                        </li>
+                    </ul>
+                    </div>
+                    <hr>
+                    <!-- Darbo patirtis 4-->
+                    <div id="section5">
+                        <h3>UAB "Miesto žinios", Jonava</h3>
+                        <ul class="timeline">
+                        <li>
+                            <b>Skelbimų redaktorė</b>
+                            <b class="float-right">2010 - 2011</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                        </li>
+                        <li>
+                            <b>Vadybininkė</b>
+                            <b class="float-right">2008 - 2009</b>
+                            <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                        </li>
+                        <li>
+                            <b>Skrajučių išnešiotoja</b>
+                            <b class="float-right">2007 - 2008</b>
+                            <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End main container with scroll spy -->
+        <hr>
+        <!-- Footer -->
+        <footer id="footer">
+            <!-- Vardas Pavardė -->
+            <div class="container">
+                <h3>Eglė Eglavičiūtė</h3>
+            <!-- Socialiniai tinklai -->
+            <div class="social-links">
+                <a href="#" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="#" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" target="_blank" class="github"><i class="fa fa-github"></i></a>
+            </div>
+            <!-- Copyright'as -->
+            <div class="copyright">
+                &copy; Copyright <strong><span>Mano <b>Portfolio</b></span></strong> 2021. Visos teisės saugomos.
+            </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        <!-- Back to top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        <!-- End back to top -->
+    </body>
+</html>
